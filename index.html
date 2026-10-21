@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gainsunc | Your Music. Your Projects. Our Cloud.</title>
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="studio-bg" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-xl main-nav sticky-top" id="mainNav">
+  <div class="container-xl">
+    <a class="brand" href="#home" aria-label="Gainsunc home"><img class="logo-img" src="images/logo.png" alt="Gainsunc"></a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-xl-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">How It Works</a>
+          <div class="dropdown-menu mega"><div class="container-xl">
+            <h5 class="mega-title">Get your music to the cloud in four steps</h5>
+            <div class="row g-4">
+              <div class="col-sm-6 col-xl-3"><span class="num">1</span><h6>Prepare Your Files</h6><p>Save your project from your DAW and include stems, samples, plugins, presets and MIDI.</p></div>
+              <div class="col-sm-6 col-xl-3"><span class="num">2</span><h6>Upload Securely</h6><p>Sign in to your dashboard, then drag and drop or select your files.</p></div>
+              <div class="col-sm-6 col-xl-3"><span class="num">3</span><h6>Organize &amp; Manage</h6><p>Add a title, description and tags, and choose your privacy settings.</p></div>
+              <div class="col-sm-6 col-xl-3"><span class="num">4</span><h6>Access Anywhere</h6><p>Open your project on any device and carry on working.</p></div>
+            </div></div></div></li>
+
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Supported Files</a>
+          <div class="dropdown-menu mega"><div class="container-xl">
+            <h5 class="mega-title">Every part of your project is covered</h5>
+            <div class="row g-3">
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-file-earmark-music"></i><div><b>DAW Projects</b><small>.flp, .als, .cwp, .logicx, .cpr, .rpp</small></div></div></div>
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-music-note-beamed"></i><div><b>Audio</b><small>.wav, .mp3, .aif</small></div></div></div>
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-piano"></i><div><b>MIDI</b><small>.mid, .midi</small></div></div></div>
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-file-earmark-play"></i><div><b>Samples</b><small>.wav, .aiff, .ogg</small></div></div></div>
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-plugin"></i><div><b>Plugins</b><small>.dll, .vst, .vst3, .component</small></div></div></div>
+              <div class="col-12 col-sm-6 col-xl-4"><div class="fmt"><i class="bi bi-sliders"></i><div><b>Presets</b><small>.fxp, .fxb, .preset</small></div></div></div>
+            </div>
+            <p class="mega-note">Max file size is 20 GB per upload. Upload several files at once, or a full project folder.</p>
+          </div></div></li>
+
+        <li class="nav-item dropdown" id="security"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Security</a>
+          <div class="dropdown-menu mega"><div class="container-xl">
+            <h5 class="mega-title">Your music stays yours</h5>
+            <div class="row g-4">
+              <div class="col-md-4"><i class="bi bi-shield-lock mega-ico"></i><h6>Encrypted storage</h6><p>Every file is encrypted when it moves and while it rests in the cloud.</p></div>
+              <div class="col-md-4"><i class="bi bi-person-lock mega-ico"></i><h6>Private by default</h6><p>Only you, and the collaborators you invite, can open a project.</p></div>
+              <div class="col-md-4"><i class="bi bi-arrow-repeat mega-ico"></i><h6>Always backed up</h6><p>Projects are kept for years, so unfinished beats are waiting when you return.</p></div>
+            </div></div></div></li>
+
+
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">Support</a>
+          <div class="dropdown-menu mega"><div class="container-xl">
+            <div class="row g-3">
+              <div class="col-6 col-xl-3"><a class="mega-link" href="#"><i class="bi bi-life-preserver"></i>Help Center</a></div>
+              <div class="col-6 col-xl-3"><a class="mega-link" href="#faq"><i class="bi bi-question-circle"></i>FAQ</a></div>
+              <div class="col-6 col-xl-3"><a class="mega-link" href="#"><i class="bi bi-file-earmark-lock"></i>Privacy Policy</a></div>
+              <div class="col-6 col-xl-3"><a class="mega-link" href="#"><i class="bi bi-file-earmark-text"></i>Terms of Service</a></div>
+            </div></div></div></li>
+      </ul>
+      <div class="nav-actions">
+        
+        <div class="nav-btns"><a href="#" class="btn btn-sm btn-login">Log In</a><a href="#" class="btn btn-sm btn-brand" data-bs-toggle="modal" data-bs-target="#pricingModal">Sign Up</a></div>
+
+        <button class="switch" id="themeToggle" role="switch" aria-label="Switch between light and dark mode"><i class="bi bi-moon-stars-fill"></i><i class="bi bi-sun-fill"></i><span class="knob"></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- SUB NAV -->
+<div class="subnav">
+  <div class="container-xl">
+    <div class="subnav-row">
+      <a href="#" class="tab" data-bs-toggle="modal" data-bs-target="#producersModal"><i class="bi bi-headphones"></i>For Producers</a>
+      <a href="#" class="tab" data-bs-toggle="modal" data-bs-target="#featuresModal"><i class="bi bi-stars"></i>Features</a>
+      <a href="#preview" class="tab" data-spy="preview"><i class="bi bi-window-stack"></i>Dashboard</a>
+      <a href="#how" class="tab" data-spy="how"><i class="bi bi-diagram-3"></i>How It Works</a>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#pricingModal" class="tab"><i class="bi bi-tag"></i>Pricing</a>
+      <span class="sub-tag">Your Music. Your Projects. Our Cloud Severs.</span>
+    </div>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero" id="home">
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero-poster.jpg">
+    <source src="img/media/kling_20260802_VIDEO_Inside_a_h_2370_0.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="container-xl hero-inner">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 col-xl-6" data-reveal="left">
+        <h1 class="hero-title">Save your music projects. Open them anywhere.</h1>
+        <p class="hero-sub">Gainsunc keeps your whole session together: DAW files, stems, samples, plugins and presets. Sign in on any computer and carry on exactly where you stopped.</p>
+        <div class="hero-cta">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#pricingModal" class="btn btn-brand btn-lg">Start Free Trial</a>
+          <a href="#preview" class="btn btn-outline-glass btn-lg"><i class="bi bi-play-circle me-2"></i>See how it works</a>
+        </div>
+        <ul class="trust list-unstyled">
+          <li><i class="bi bi-check-circle-fill"></i>Secure &amp; encrypted</li>
+          <li><i class="bi bi-check-circle-fill"></i>Cross-device access</li>
+          <li><i class="bi bi-check-circle-fill"></i>Built for producers</li>
+        </ul>
+      </div>
+      <div class="col-lg-5 col-xl-5 offset-xl-1" data-reveal="right">
+        <div class="vault" aria-label="Preview of a project in your vault">
+          <div class="vault-bar"><span class="dots"><i></i><i></i><i></i></span><b>MY VAULT</b><em>···</em></div>
+          <div class="vault-body">
+            <div class="vault-top"><small>RECENT PROJECT</small></div>
+            <h3>Midnight Motion</h3>
+            <div class="player"><button class="play" id="vaultPlay" aria-label="Animate preview"><i class="bi bi-play-fill"></i></button><div class="wave" id="wave"></div><span>03:42</span></div>
+            <div class="meta"><div><small>DAW</small><b><i class="bi bi-music-note-beamed"></i> FL Studio</b></div><div><small>VERSION</small><b>v18</b></div><div><small>SIZE</small><b>428 MB</b></div></div>
+            <div class="vault-foot"><span><i class="bi bi-cloud-check"></i> Backed up 4 min ago</span><a href="#preview">Restore <i class="bi bi-arrow-repeat"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container-xl">
+    <div class="sec-head" data-reveal="up">
+      <h2 class="sec-title">Everything your session needs, wherever you open it</h2>
+      <p class="sec-sub">Stop carrying hard drives. Gainsunc keeps the beat, the plugins and the sounds together so a new laptop feels like your own studio.</p>
+    </div>
+    <div class="fgrid">
+      <article class="feat f-lg" data-reveal="left"><i class="bi bi-cloud-check"></i><h3>Cloud storage built for big sessions</h3><p>Upload full project folders up to 20 GB at a time and keep them for years. Unfinished beats wait for you.</p></article>
+      <article class="feat f-lg" data-reveal="up" style="--d:.08s"><i class="bi bi-laptop"></i><h3>Access anywhere</h3><p>Studio, home or a friend's laptop. Sign in, download and continue.</p></article>
+      <article class="feat f-lg" data-reveal="right" style="--d:.16s"><i class="bi bi-grid-1x2"></i><h3>Keep everything together</h3><p>Projects, stems, samples, plugins, presets and MIDI stay in one place.</p></article>
+      <article class="feat f-md" data-reveal="left" style="--d:.1s"><i class="bi bi-shield-lock"></i><h3>Secure &amp; private</h3><p>Everything is encrypted. Only you and the people you invite can open a project.</p></article>
+      <article class="feat f-md" data-reveal="right" style="--d:.18s"><i class="bi bi-people"></i><h3>Collaborate easily</h3><p>Share a project with your team and get feedback without sending files around.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- DASHBOARD PREVIEW -->
+<section class="preview" id="preview">
+  <div class="container-xl">
+    <div class="sec-head" data-reveal="up">
+      <span class="chip">After you sign up</span>
+      <h2 class="sec-title">Your studio, waiting in the cloud</h2>
+      <p class="sec-sub">This is your dashboard: every beat, stem, plugin and signed-in device in one calm place, ready to open on any machine.</p>
+    </div>
+
+    <div class="dash" data-reveal="up" aria-label="Dashboard preview">
+      <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url"><i class="bi bi-lock-fill"></i>gainsunc.com/dashboard</span><span class="avatar">P</span></div>
+      <div class="dash-body">
+        <aside class="dash-side">
+          <nav>
+            <a class="on"><i class="bi bi-folder2-open"></i>Projects</a>
+            <a><i class="bi bi-music-note-beamed"></i>Beats</a>
+            <a><i class="bi bi-soundwave"></i>Stems</a>
+            <a><i class="bi bi-plug"></i>Plugins</a>
+            <a><i class="bi bi-music-note-list"></i>Samples</a>
+            <a><i class="bi bi-people"></i>Collaborators</a>
+            <a><i class="bi bi-pc-display"></i>Devices</a>
+          </nav>
+          <div class="store">
+            <div class="store-top"><b>Storage</b><small>182 of 500 GB</small></div>
+            <div class="seg-bar"><i style="width:36%"></i><i style="width:17%"></i><i style="width:10%"></i><i style="width:6%"></i></div>
+            <ul><li><i class="d1"></i>Projects</li><li><i class="d2"></i>Stems</li><li><i class="d3"></i>Samples</li><li><i class="d4"></i>Plugins</li></ul>
+          </div>
+        </aside>
+
+        <div class="dash-main">
+          <div class="dash-top">
+            <div><h4>Good evening, producer</h4><small>3 devices signed in · last backup 4 min ago</small></div>
+            <div class="dash-actions"><span class="sbox"><i class="bi bi-search"></i>Search beats, tags, BPM</span><span class="btn btn-brand btn-sm"><i class="bi bi-cloud-arrow-up me-1"></i>Upload project</span></div>
+          </div>
+
+          <div class="kpis">
+            <div><i class="bi bi-folder-check"></i><b>128</b><small>Projects saved</small></div>
+            <div><i class="bi bi-plug"></i><b>46</b><small>Plugins backed up</small></div>
+            <div><i class="bi bi-music-note-list"></i><b>3,240</b><small>Samples &amp; stems</small></div>
+            <div><i class="bi bi-clock-history"></i><b>30 days</b><small>Version history</small></div>
+          </div>
+
+          <div class="dgrid">
+            <div class="panel p-projects">
+              <div class="panel-h"><b>Recent projects</b><span class="tabs"><em class="on">All</em><em>FL Studio</em><em>Logic</em><em>Shared</em></span></div>
+              <div class="prow head"><span>Project</span><span>DAW</span><span class="pm">Tempo · Key</span><span class="ps">Size</span><span>Status</span></div>
+              <div class="prow"><div class="pn"><i class="bi bi-file-earmark-music"></i><div><b>Midnight Motion</b><small>Edited 4 min ago · v18</small></div></div><span class="daw-tag">FL Studio</span><span class="pm">142 BPM · F min</span><span class="ps">428 MB</span><span class="st ok">Synced</span></div>
+              <div class="prow"><div class="pn"><i class="bi bi-file-earmark-music"></i><div><b>Lagos Sunrise</b><small>Uploading now · 68%</small><div class="bar"><i style="width:68%"></i></div></div></div><span class="daw-tag">Ableton</span><span class="pm">108 BPM · A maj</span><span class="ps">1.2 GB</span><span class="st wait">Uploading</span></div>
+              <div class="prow"><div class="pn"><i class="bi bi-file-earmark-music"></i><div><b>Talking Drum Loop</b><small>Shared with 2 people</small></div></div><span class="daw-tag">Logic Pro</span><span class="pm">96 BPM · D min</span><span class="ps">2.4 GB</span><span class="st sh">Shared</span></div>
+              <div class="prow"><div class="pn"><i class="bi bi-file-earmark-music"></i><div><b>Sunday Mix</b><small>Edited yesterday · v6</small></div></div><span class="daw-tag">Cubase</span><span class="pm">120 BPM · C maj</span><span class="ps">890 MB</span><span class="st ok">Synced</span></div>
+              <div class="prow"><div class="pn"><i class="bi bi-file-earmark-music"></i><div><b>Afro Keys Session</b><small>Edited 3 days ago · v3</small></div></div><span class="daw-tag">Reaper</span><span class="pm">112 BPM · G min</span><span class="ps">640 MB</span><span class="st ok">Synced</span></div>
+            </div>
+
+            <div class="side-col">
+              <div class="panel">
+                <div class="panel-h"><b>Plugins in Midnight Motion</b><em class="mini">6 saved</em></div>
+                <div class="li"><i class="bi bi-plug"></i><div><b>Serum</b><small>Synth · 14 presets</small></div><span class="st ok">Licensed</span></div>
+                <div class="li"><i class="bi bi-plug"></i><div><b>FabFilter Pro-Q 3</b><small>EQ · 3 presets</small></div><span class="st ok">Licensed</span></div>
+                <div class="li"><i class="bi bi-plug"></i><div><b>Valhalla VintageVerb</b><small>Reverb · 5 presets</small></div><span class="st ok">Licensed</span></div>
+                <div class="li"><i class="bi bi-plug"></i><div><b>Kontakt 7</b><small>Sampler · 2 libraries</small></div><span class="st wait">Needs key</span></div>
+              </div>
+              <div class="panel">
+                <div class="panel-h"><b>Signed-in devices</b><em class="mini">3 active</em></div>
+                <div class="li"><i class="bi bi-pc-display"></i><div><b>Studio PC</b><small>Windows · Active now</small></div><span class="dot"></span></div>
+                <div class="li"><i class="bi bi-laptop"></i><div><b>MacBook Air</b><small>Lagos · 2 hours ago</small></div><span class="rev">Sign out</span></div>
+                <div class="li"><i class="bi bi-laptop"></i><div><b>Friend's laptop</b><small>FL Studio 21 · Yesterday</small></div><span class="rev">Sign out</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- slider -->
+    <div class="row g-5 align-items-center tour-row" id="how">
+      <div class="col-lg-5" data-reveal="left">
+        <h3 class="sec-title sm">From your DAW to any device in four moves</h3>
+        <p class="sec-sub">Here is the real flow, screen by screen, so you know exactly what to expect on day one.</p>
+        <ul class="checks list-unstyled">
+          <li><i class="bi bi-cloud-arrow-up"></i>Upload full projects, stems and plugins</li>
+          <li><i class="bi bi-tags"></i>Organize with titles, tags and privacy settings</li>
+          <li><i class="bi bi-laptop"></i>Resume on any device, years from now</li>
+        </ul>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#pricingModal" class="btn btn-brand">Create your free account</a>
+      </div>
+      <div class="col-lg-7" data-reveal="right">
+        <div id="tour" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5500" data-bs-pause="hover">
+          <div class="carousel-inner">
+            <div class="carousel-item active"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span>gainsunc.com/upload</span></div><div class="shot-main">
+              <div class="shot-drop"><i class="bi bi-cloud-arrow-up"></i><span>Drag &amp; drop your project here</span><em>Choose your DAW first · max 20 GB per upload</em></div>
+              <div class="shot-row"><i class="bi bi-file-earmark-music"></i><span>Midnight Soul.flp</span><em>68%</em></div><div class="bar"><i style="width:68%"></i></div>
+              <div class="shot-row"><i class="bi bi-file-earmark-zip"></i><span>Drums &amp; Percussion.zip</span><em>Queued</em></div></div></div>
+              <div class="slide-cap"><span class="num">1</span><div><h6>Drop your project in</h6><p>After signing up, drag your DAW project, stems and plugins into the upload area, or pick them from your computer.</p></div></div></div>
+            <div class="carousel-item"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span>gainsunc.com/details</span></div><div class="shot-main">
+              <div class="fld"><label>Title</label><div>Midnight Soul</div></div>
+              <div class="fld"><label>Tags</label><div class="tags"><span>afrobeat</span><span>140 bpm</span><span>talking drum</span></div></div>
+              <div class="fld"><label>Privacy</label><div class="priv"><span class="on">Private</span><span>Collaborators</span><span>Public link</span></div></div></div></div>
+              <div class="slide-cap"><span class="num">2</span><div><h6>Add the details</h6><p>Give it a title, add tags like BPM or genre, and choose who can see it.</p></div></div></div>
+            <div class="carousel-item"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span>gainsunc.com/projects</span></div><div class="shot-main">
+              <div class="shot-row"><i class="bi bi-file-earmark-music"></i><span>Midnight Soul.flp</span><em>1.2 GB</em></div>
+              <div class="shot-row"><i class="bi bi-file-earmark-music"></i><span>Talking Drum Loop.als</span><em>640 MB</em></div>
+              <div class="shot-row"><i class="bi bi-file-earmark-music"></i><span>Afro Keys Session.logicx</span><em>2.4 GB</em></div>
+              <div class="shot-row"><i class="bi bi-file-earmark-music"></i><span>Sunday Mix.cpr</span><em>890 MB</em></div>
+              <div class="shot-row"><i class="bi bi-plug"></i><span>Plugins &amp; presets (46)</span><em>3.1 GB</em></div></div></div>
+              <div class="slide-cap"><span class="num">3</span><div><h6>Keep everything organized</h6><p>Every project lands in your library with its stems, samples and presets together.</p></div></div></div>
+            <div class="carousel-item"><div class="shot"><div class="shot-bar"><i></i><i></i><i></i><span>gainsunc.com/devices</span></div><div class="shot-main">
+              <div class="devs"><div><i class="bi bi-pc-display"></i><b>Studio</b><small>Synced</small></div><div><i class="bi bi-laptop"></i><b>Home</b><small>Synced</small></div><div><i class="bi bi-phone"></i><b>On the go</b><small>Synced</small></div></div>
+              <div class="shot-row"><i class="bi bi-arrow-repeat"></i><span>Restore Midnight Soul.flp</span><em>Open</em></div></div></div>
+              <div class="slide-cap"><span class="num">4</span><div><h6>Open it anywhere</h6><p>Sign in on any computer and your project, samples and effects are ready to continue.</p></div></div></div>
+          </div>
+          <div class="tour-nav"><button class="icon-btn" data-bs-target="#tour" data-bs-slide="prev" aria-label="Previous"><i class="bi bi-chevron-left"></i></button><div class="carousel-indicators"><button type="button" data-bs-target="#tour" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button><button type="button" data-bs-target="#tour" data-bs-slide-to="1" aria-label="Slide 2"></button><button type="button" data-bs-target="#tour" data-bs-slide-to="2" aria-label="Slide 3"></button><button type="button" data-bs-target="#tour" data-bs-slide-to="3" aria-label="Slide 4"></button></div><button class="icon-btn" data-bs-target="#tour" data-bs-slide="next" aria-label="Next"><i class="bi bi-chevron-right"></i></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DAW MARQUEE -->
+<section class="daws" id="daws">
+  <div class="container-xl" data-reveal="left">
+    <div class="sec-head">
+      <span class="chip">Works with all major DAWs</span>
+      <h2 class="sec-title">Supported file formats</h2>
+      <p class="sec-sub">We support the major DAW project files and everything that goes with them, so you never lose a piece of your work.</p>
+    </div>
+  </div>
+  <div class="marquee" id="marquee"><div class="track" id="track"></div></div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="join">
+  <div class="container-xl">
+    <div class="cta-card">
+      <div class="row g-4 g-lg-5 align-items-center">
+        <div class="col-lg-4" data-reveal="left"><div class="photo"><img src="img/BG/downbg.jpg" alt="Producer working in a studio"></div></div>
+        <div class="col-lg-5" data-reveal="up">
+          <span class="chip">Ready to get started?</span>
+          <h2 class="sec-title">Join thousands of producers already on Gainsunc</h2>
+          <p class="sec-sub">Protect your work, improve your workflow and work without limits.</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#" class="btn btn-brand btn-lg">Create your free account</a>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#pricingModal" class="btn btn-ghost btn-lg">View pricing</a>
+          </div>
+        </div>
+        <div class="col-lg-3" data-reveal="right">
+          <ul class="stats list-unstyled">
+            <li><i class="bi bi-people"></i><div><b data-count="50000">0</b><small>Active producers</small></div></li>
+            <li><i class="bi bi-folder-check"></i><div><b data-count="2" data-suffix="M+">0</b><small>Projects stored</small></div></li>
+            <li><i class="bi bi-speedometer2"></i><div><b data-count="99.9" data-suffix="%">0</b><small>Uptime guarantee</small></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer" id="faq">
+  <div class="container-xl">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-3" data-reveal="left">
+        <a class="brand mb-2" href="#home"><img class="logo-img" src="img/BG/gainsunc founder use1.jpg" alt="Gainsunc"></a>
+        <p class="foot-tag">Your Music. Anywhere.</p>
+        <div class="social"><a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a><a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+        <div class="photo foot-photo"><img src="img/BG/gainsunc founder use1.jpg" alt="Gainsunc founder"></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2" data-reveal="up"><h6>Product</h6><ul class="list-unstyled"><li><a href="#features">Features</a></li><li><a href="#" data-bs-toggle="modal" data-bs-target="#pricingModal">Pricing</a></li><li><a href="#daws">Supported Files</a></li><li><a href="#">Integrations</a></li></ul></div>
+      <div class="col-6 col-md-4 col-lg-2" data-reveal="up" style="--d:.08s"><h6>Company</h6><ul class="list-unstyled"><li><a href="#">About Us</a></li><li><a href="#">Blog</a></li><li><a href="#">Careers</a></li><li><a href="#">Contact</a></li></ul></div>
+      <div class="col-6 col-md-4 col-lg-2" data-reveal="up" style="--d:.16s"><h6>Support</h6><ul class="list-unstyled"><li><a href="#">Help Center</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Security</a></li></ul></div>
+      <div class="col-md-8 col-lg-3" data-reveal="right"><h6>Stay updated</h6><p class="small">Get the latest news, features and tips.</p>
+        <form class="news" onsubmit="return false"><input type="email" class="form-control" placeholder="Enter your email address" aria-label="Email address"><button class="btn btn-brand" aria-label="Subscribe"><i class="bi bi-arrow-right"></i></button></form></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="yr">2026</span> Gainsunc. All rights reserved.</span><span class="fst-italic">Built for creators. Powered by the cloud.</span></div>
+  </div>
+</footer>
+
+<div class="modal fade" id="producersModal" tabindex="-1" aria-labelledby="producersModalL" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="producersModalL">Built for producers</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><p class="sec-sub mb-4">Gainsunc is made for people who build music in a DAW and are tired of losing work when the laptop changes.</p><div class="mgrid"><div class="mcard"><i class="bi bi-music-note-beamed"></i><h6>Beat makers</h6><p>Keep unfinished beats for years and resume them on any computer, with the template, samples and effects intact.</p></div><div class="mcard"><i class="bi bi-sliders"></i><h6>Mixing and mastering</h6><p>Store full sessions with plugin presets so a mix opens the way you left it.</p></div><div class="mcard"><i class="bi bi-people"></i><h6>Collaborating artists</h6><p>Share a project with a vocalist or co-producer and keep everyone on the same version.</p></div><div class="mcard"><i class="bi bi-airplane"></i><h6>Producers on the move</h6><p>Work at a friend's studio or a new laptop. Sign in, download, continue.</p></div></div><div class="d-flex flex-wrap gap-2 mt-4"><a href="#" class="btn btn-brand" data-bs-toggle="modal" data-bs-target="#pricingModal">Start for free</a><a href="#how" class="btn btn-ghost" data-bs-dismiss="modal">See how it works</a></div></div></div></div></div>
+<div class="modal fade" id="featuresModal" tabindex="-1" aria-labelledby="featuresModalL" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="featuresModalL">Everything Gainsunc does for you</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="mgrid"><div class="mcard"><i class="bi bi-cloud-check"></i><h6>Project cloud storage</h6><p>Full project folders up to 20 GB per upload, kept for years.</p></div><div class="mcard"><i class="bi bi-plug"></i><h6>Plugin and preset backup</h6><p>Keep the plugins and presets each project depends on.</p></div><div class="mcard"><i class="bi bi-clock-history"></i><h6>Version history</h6><p>Go back to an earlier version of any project.</p></div><div class="mcard"><i class="bi bi-arrow-repeat"></i><h6>Restore anywhere</h6><p>Download a project on any device and carry on.</p></div><div class="mcard"><i class="bi bi-people"></i><h6>Collaboration</h6><p>Invite people and share projects without sending files.</p></div><div class="mcard"><i class="bi bi-link-45deg"></i><h6>Private share links</h6><p>Share a project for feedback and control who can open it.</p></div><div class="mcard"><i class="bi bi-shield-lock"></i><h6>Encrypted and private</h6><p>Files are encrypted in transit and at rest.</p></div><div class="mcard"><i class="bi bi-tags"></i><h6>Tags and search</h6><p>Find beats by title, BPM, key, genre or DAW.</p></div></div></div></div></div></div>
+<div class="modal fade" id="pricingModal" tabindex="-1" aria-labelledby="pricingModalL" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="pricingModalL">Pick your plan</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="sec-head"><p class="sec-sub">Start free and upgrade when your library grows. Change plans any time.</p><div class="bill" id="bill" role="group" aria-label="Billing period"><button class="on" data-p="m">Monthly</button><button data-p="y">Yearly <em>2 months free</em></button></div></div><div class="plans"><article class="plan"><h3>Free</h3><p class="pd">Try Gainsunc with no card and no time limit.</p><div class="price" data-m="0" data-y="0">$<b>0</b><small>/month</small></div><a href="#" class="btn btn-ghost w-100">Start for free</a><ul class="plist"><li><i class="bi bi-check2"></i>15 GB cloud storage</li><li><i class="bi bi-check2"></i>Up to 5 projects</li><li><i class="bi bi-check2"></i>DAW files and stems</li><li><i class="bi bi-check2"></i>1 signed-in device</li><li><i class="bi bi-check2"></i>Encrypted storage</li><li><i class="bi bi-check2"></i>Community support</li></ul></article>
+        <article class="plan">
+        <h3>Starter</h3><p class="pd">For a producer just beginning to back up beats.</p>
+        <div class="price" data-m="2" data-y="20">$<b>2</b><small>/month</small></div>
+        <a href="#" class="btn btn-ghost w-100">Start free trial</a>
+        <ul class="plist"><li><i class="bi bi-check2"></i>50 GB cloud storage</li><li><i class="bi bi-check2"></i>Up to 25 projects</li><li><i class="bi bi-check2"></i>DAW files, stems and MIDI</li><li><i class="bi bi-check2"></i>2 signed-in devices</li><li><i class="bi bi-check2"></i>Encrypted storage</li><li><i class="bi bi-check2"></i>Email support</li></ul>
+      </article>
+      <article class="plan pop">
+        <span class="badge-pop">Most popular</span>
+        <h3>Plus</h3><p class="pd">For active producers who move between studios.</p>
+        <div class="price" data-m="7" data-y="70">$<b>7</b><small>/month</small></div>
+        <a href="#" class="btn btn-brand w-100">Start free trial</a>
+        <ul class="plist"><li><i class="bi bi-check2"></i>250 GB cloud storage</li><li><i class="bi bi-check2"></i>Unlimited projects</li><li><i class="bi bi-check2"></i>Plugin and preset backup</li><li><i class="bi bi-check2"></i>5 signed-in devices</li><li><i class="bi bi-check2"></i>30-day version history</li><li><i class="bi bi-check2"></i>Private share links</li></ul>
+      </article>
+      <article class="plan">
+        <h3>Pro</h3><p class="pd">For teams and labels working on beats together.</p>
+        <div class="price" data-m="15" data-y="150">$<b>15</b><small>/month</small></div>
+        <a href="#" class="btn btn-ghost w-100">Start free trial</a>
+        <ul class="plist"><li><i class="bi bi-check2"></i>1 TB cloud storage</li><li><i class="bi bi-check2"></i>Everything in Plus</li><li><i class="bi bi-check2"></i>10 collaborators</li><li><i class="bi bi-check2"></i>10 signed-in devices</li><li><i class="bi bi-check2"></i>90-day version history</li><li><i class="bi bi-check2"></i>Priority upload speeds</li></ul>
+      </article>
+      <article class="plan">
+        <h3>Unlimited</h3><p class="pd">For full catalogues that never stop growing.</p>
+        <div class="price" data-m="29" data-y="290">$<b>29</b><small>/month</small></div>
+        <a href="#" class="btn btn-ghost w-100">Start free trial</a>
+        <ul class="plist"><li><i class="bi bi-check2"></i>Unlimited storage</li><li><i class="bi bi-check2"></i>Everything in Pro</li><li><i class="bi bi-check2"></i>Unlimited collaborators</li><li><i class="bi bi-check2"></i>Unlimited devices</li><li><i class="bi bi-check2"></i>1-year version history</li><li><i class="bi bi-check2"></i>Priority support</li></ul>
+      </article></div><p class="plan-note">The free plan has no time limit. Paid plans include a 14-day trial. Prices in US dollars.</p></div></div></div></div>
+<div class="mood-layer" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span><span class="stars"></span></div>
+
+<!-- AMBIENT DOCK -->
+<div class="dock" id="moodCard" role="group" aria-label="Ambient mode">
+  <button class="dock-main" id="moodMin" aria-label="Show or hide ambient controls"><i class="bi bi-music-note-beamed ic-open"></i><i class="bi bi-chevron-down ic-close"></i></button>
+  <div class="dock-body">
+    <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    <div class="seg">
+      <button class="seg-btn" data-mood="midnight" aria-pressed="false" title="Midnight: tap again to pause"><i class="bi bi-moon-stars-fill"></i><span>Midnight</span></button>
+      <button class="seg-btn" data-mood="daylight" aria-pressed="false" title="Daylight: tap again to pause"><i class="bi bi-brightness-high-fill"></i><span>Daylight</span></button>
+    </div>
+    <label class="dock-vol"><i class="bi bi-volume-down"></i><input type="range" id="moodVol" min="0" max="1" step=".05" value=".5" aria-label="Volume"></label>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
